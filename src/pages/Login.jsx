@@ -46,7 +46,7 @@ const Login = () => {
 
                 <div className="heading">
                   <h2>Welcome Back</h2>
-                  <h6>Not registered yet?</h6>
+                  <h5>Not registered yet?</h5>
                   <button type="button" className="toggle" onClick={toggleForm}>
                     Sign up
                   </button>
@@ -93,8 +93,8 @@ const Login = () => {
 
                 <div className="heading">
                   <h2>Get Started</h2>
-                  <h6>Already have an account?</h6>
-                  <button type="button" className="toggle" onClick={toggleForm}>
+                  <h5>Already have an account?</h5>
+                  <button type="button" className="toggle mb-4 text-xl text-white" onClick={toggleForm}>
                     Sign in
                   </button>
                 </div>

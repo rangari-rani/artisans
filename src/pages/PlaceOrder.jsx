@@ -124,7 +124,7 @@ const PlaceOrder = () => {
       progress: undefined,
     });
   
-    navigate('/login'); // Or your actual order page
+    // navigate('/login'); // Or your actual order page
   
 }}
               // onClick={() => navigate("/login")}
